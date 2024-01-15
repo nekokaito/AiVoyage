@@ -5,6 +5,7 @@
   margin: 0;
   font-family: Mulish;
 }
+
 .sky-color {
   color: #82c5d5;
 }
@@ -42,6 +43,7 @@ nav li {
 nav {
   display: flex;
   justify-content: space-around;
+  
 }
 nav img {
   width: 3.125rem;
@@ -61,6 +63,9 @@ nav a:hover {
   display: flex;
   gap: 2.75rem;
 }
+.nav-menu-phn {
+  display: none;
+}
 /* Header Section CSS */
 header {
   margin-top: 3.25rem;
@@ -74,8 +79,10 @@ header {
 .header-content {
   background-image: url("../images/bg-header.png");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 73.125rem;
-  height: 31.25rem;
+  height: 500px;
   border-radius: 1rem;
   align-items: center;
   display: flex;
@@ -127,4 +134,23 @@ select {
   display: flex;
   gap: 24px
   
+}
+
+/* Main section styles */
+.tour-showcase-div {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  margin: 100px 135px;
+}
+.tour-showcase-div img {
+  border-radius: 1rem;
+}
+.tour-showcase-div h1 {
+  color: #131318;
+ font-size: 40px;
+ font-style: normal;
+ font-weight: 800;
+ line-height: normal;
+ margin-bottom: 24px;
 }

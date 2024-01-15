@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+  .header-main,
+  .selection-div, nav, .header-main {
+    flex-direction: column;
+  }
+  .nav-menu-phn {
+    display: block;
+  }
+  .nav-menu-phn img {
+    width: 24px;
+    float: right;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .selection-div {
+    width: 80%;
+    
+  }
+  .selection-div input,
+  select,
+  .btn-primary {
+    width: 100%;
+    height: 60px;
+  }
+
+  .header-content {
+    width: 22rem;
+    height: 100%;
+    background-position: center;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .header-content h1 {
+    padding-top: 10px;
+    font-size: 1.375rem;
+  }
+  .header-content p {
+    font-size: 0.875rem;
+    width: 19rem;
+  }
+}
