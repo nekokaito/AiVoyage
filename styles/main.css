@@ -210,12 +210,12 @@ li {
     "tok tok tok tok kana kana kana kana"
     "miya miya oki oki oki oki hako hako"
     "kyo kyo kyo osa osa osa osa osa";
-    padding: 0 300px;
+  padding: 0 300px;
   gap: 24px;
 }
 .Tokyo {
   grid-area: tok;
-  background-image: url('../Images/tokyo.jpg');
+  background-image: url("../Images/tokyo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -228,7 +228,7 @@ li {
 }
 .Kana {
   grid-area: kana;
-  background-image: url('../Images/kanazawa.jpg');
+  background-image: url("../Images/kanazawa.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -241,7 +241,7 @@ li {
 }
 .Miya {
   grid-area: miya;
-  background-image: url('../Images/MiyajimaIsland.jpeg');
+  background-image: url("../Images/MiyajimaIsland.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -254,7 +254,7 @@ li {
 }
 .Oki {
   grid-area: oki;
-  background-image: url('../Images/Okinawa.jpg');
+  background-image: url("../Images/Okinawa.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -267,7 +267,7 @@ li {
 }
 .Hako {
   grid-area: hako;
-  background-image: url('../Images/hakone.jpg');
+  background-image: url("../Images/hakone.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -280,7 +280,7 @@ li {
 }
 .Kyo {
   grid-area: kyo;
-  background-image: url('../Images/kyoto.jpg');
+  background-image: url("../Images/kyoto.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -293,7 +293,7 @@ li {
 }
 .Osa {
   grid-area: osa;
-  background-image: url('../Images/osaka.jpg');
+  background-image: url("../Images/osaka.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -303,4 +303,78 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* Features styles */
+.features-section {
+  margin-top: 100px;
+  padding: 0 250px;
+}
+.features-section h1 {
+  text-align: center;
+  color: #131318;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.features-section #text {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+}
+
+.features-section img {
+  width: 4rem;
+}
+.map,
+.hotel,
+.price {
+  height: 284px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+  gap: 16px;
+}
+.features-title {
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.features-des {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.features-contain {
+  display: grid;
+  grid-template-areas:
+    "hotel hotel map map"
+    ". price price .";
+  gap: 26px;
+}
+.hotel {
+  grid-area: hotel;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.map {
+  grid-area: map;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.price {
+  grid-area: price;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
 }
