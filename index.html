@@ -9,6 +9,10 @@
  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="styles/main.css">
  <link rel="stylesheet" href="styles/media.css">
+ <script
+ src="https://kit.fontawesome.com/69864b98d9.js"
+ crossorigin="anonymous"
+></script>
 </head>
 <body>
     <header>
@@ -32,16 +36,36 @@
        <div class="header-main">
         <div class="header-content">
             <h1>Explore Your Travel</h1>
-            <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+            <p>Ai Voyage, your gateway to seamless and immersive travel experiences in Japan, blending cutting-edge technology with traditional hospitality.</p>
             <div class="selection-div">
-            <input type="text">
-            </div>
-            
-         </div>
+                <input type="text" placeholder="Where to go">
+                    <select name="When" id="">
+                        <option value="" disabled selected hidden>When</option>
+                        option value="morning">Morning</option>
+                  <option value="afternoon">Afternoon</option>
+                  <option value="evening">Evening</option>
+                   <option value="night">Night</option>
+                    </select>
+                    <select name="Type" id="">
+                        <option value="" disabled selected hidden>Select type</option>
+                        <option value="car">Car</option>
+           <option value="bus">Bus</option>
+        <option value="train">Train</option>
+        <option value="plane">Plane</option>
+        <option value="bicycle">Bicycle</option>
+        <option value="ship">Ship</option>
+        <option value="motorcycle">Motorcycle</option>
+                    </select>
+                    <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Find Now</i></button>
+        </div>
+    </div>
        </div>
-       
-    </header>
-    <main></main>
+</header>
+    <main>
+        <section class="tour-showcase">
+            
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>

@@ -1,73 +1,130 @@
-
 /* Global CSS */
 
 * {
-    padding: 0;
-    margin: 0;
-    font-family: Mulish;
+  padding: 0;
+  margin: 0;
+  font-family: Mulish;
 }
 .sky-color {
-    color: #82c5d5;
+  color: #82c5d5;
+}
+.btn-primary {
+  width: 10.875rem;
+  height: 3.25rem;
+  background-color: #82c5d5;
+  border-radius: 0.5rem;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #77a3ae;
 }
 
 /* Nav Section */
 nav h1 {
-color: #131318;
-font-family: Mulish;
-font-size: 36px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 nav li {
-text-align: center;
-font-family: Mulish;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 nav img {
-    width: 3.125rem;
+  width: 3.125rem;
 }
-nav a{
-    text-decoration: none;
-    color:  #424247;
-    
+nav a {
+  text-decoration: none;
+  color: #424247;
 }
 nav a:hover {
-    color: #82c5d5;
+  color: #82c5d5;
 }
 .icon-div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .menubar {
-    display: flex;
-    gap: 2.75rem;
+  display: flex;
+  gap: 2.75rem;
 }
 /* Header Section CSS */
 header {
-    margin-top: 3.25rem;
+  margin-top: 3.25rem;
 }
 .header-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.063rem;
 }
 .header-content {
-    background-image: url('../images/bg-header.png');
-    background-repeat: no-repeat;
-    width: 73.125rem;
-    height: 31.25rem;
-    border-radius: 1rem;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: url("../images/bg-header.png");
+  background-repeat: no-repeat;
+  width: 73.125rem;
+  height: 31.25rem;
+  border-radius: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.header-content h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+.header-content p {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+  width: 42.25rem;
+}
+.header-content input,
+select {
+  width: 10.875rem;
+  height: 3.25rem;
+  border-radius: 0.8rem;
+  border: 0;
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.header-content button {
+  font-size: 1rem;
+}
+.selection-div {
+  background-color: rgba(255, 255, 255, 0.30);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  display: flex;
+  gap: 24px
+  
 }
