@@ -1,0 +1,73 @@
+
+/* Global CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Mulish;
+}
+.sky-color {
+    color: #82c5d5;
+}
+
+/* Nav Section */
+nav h1 {
+color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+nav li {
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav img {
+    width: 3.125rem;
+}
+nav a{
+    text-decoration: none;
+    color:  #424247;
+    
+}
+nav a:hover {
+    color: #82c5d5;
+}
+.icon-div {
+    display: flex;
+    align-items: center;
+}
+.menubar {
+    display: flex;
+    gap: 2.75rem;
+}
+/* Header Section CSS */
+header {
+    margin-top: 3.25rem;
+}
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content {
+    background-image: url('../images/bg-header.png');
+    background-repeat: no-repeat;
+    width: 73.125rem;
+    height: 31.25rem;
+    border-radius: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
