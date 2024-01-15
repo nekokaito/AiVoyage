@@ -44,7 +44,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
 nav img {
   width: 3.125rem;
@@ -90,7 +89,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 .header-content h1 {
   color: #fff;
@@ -129,12 +127,11 @@ select {
   font-size: 1rem;
 }
 .selection-div {
-  background-color: rgba(255, 255, 255, 0.30);
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 1rem;
   border-radius: 0.8rem;
   display: flex;
-  gap: 24px
-  
+  gap: 24px;
 }
 
 /* Main section styles */
@@ -146,41 +143,164 @@ select {
   align-items: center;
   gap: 24px;
 }
-/* .tour-content {
-  margin-right: 100px;
-} */
 
 .tour-showcase img {
   border-radius: 1rem;
- }
- .tour-content {
+}
+.tour-content {
   display: flex;
   flex-direction: column;
   gap: 24px;
   width: 50%;
- }
+}
 
 .tour-showcase h1 {
   color: #131318;
- font-size: 40px;
- font-style: normal;
- font-weight: 800;
- line-height: normal;
- 
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 .tour-showcase ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-.tour-showcase p, li {
-  color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; 
-list-style-position: inside;
-
+.tour-showcase p,
+li {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  list-style-position: inside;
 }
+/* Destination section style */
 
+.destiny-section {
+  margin-top: 100px;
+}
+.destiny-section h3 {
+  text-align: center;
+  color: #131318;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.destiny-section p {
+  margin: 24px 0 40px 0;
+  text-align: center;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0 250px;
+}
+.destiny-grid h3 {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.destiny-grid {
+  display: grid;
+  grid-template-areas:
+    "tok tok tok tok kana kana kana kana"
+    "miya miya oki oki oki oki hako hako"
+    "kyo kyo kyo osa osa osa osa osa";
+    padding: 0 300px;
+  gap: 24px;
+}
+.Tokyo {
+  grid-area: tok;
+  background-image: url('../Images/tokyo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  /* width: 100%; */
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Kana {
+  grid-area: kana;
+  background-image: url('../Images/kanazawa.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Miya {
+  grid-area: miya;
+  background-image: url('../Images/MiyajimaIsland.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Oki {
+  grid-area: oki;
+  background-image: url('../Images/Okinawa.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Hako {
+  grid-area: hako;
+  background-image: url('../Images/hakone.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Kyo {
+  grid-area: kyo;
+  background-image: url('../Images/kyoto.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Osa {
+  grid-area: osa;
+  background-image: url('../Images/osaka.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
