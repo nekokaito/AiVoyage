@@ -1,7 +1,11 @@
 @media screen and (max-width: 600px) {
   .header-main,
-  .selection-div, nav, .header-main {
+  .selection-div, .header-main, .tour-showcase {
     flex-direction: column;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
   }
   .nav-menu-phn {
     display: block;
@@ -38,5 +42,24 @@
   .header-content p {
     font-size: 0.875rem;
     width: 19rem;
+  }
+  .tour-showcase {
+    margin: 24px 15px;
+    gap: 30px;
+    
+  }
+  .tour-showcase h1 {
+        font-size: 20px;
+  }
+  .tour-showcase img {
+    margin-top: 24px;
+    width: 100%;
+  }
+  .tour-showcase button {
+          width: 80%;
+  }
+  .tour-content {
+    width: 100%;
+    
   }
 }
