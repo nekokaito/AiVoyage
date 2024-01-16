@@ -430,13 +430,14 @@ li {
 }
 .newsletter-section input,
 button {
-  width: 393px;
+  width: 100%;
   height: 52px;
   border-radius: 8px;
   border: 0;
 }
 .newsletter-section input {
   background-color: #1313180d;
+  
 }
 .newsletter-section button {
   background-color: #82c5d5;
@@ -455,6 +456,7 @@ button {
 .newsletter-section input::placeholder {
   padding-left: 10px;
   color: #1313184d;
+ 
 }
 .offer-box {
   width: 324px;
