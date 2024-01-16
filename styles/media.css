@@ -88,4 +88,17 @@
   .features-section {
     padding: 20px;
   }
+  .features-contain {
+    display: grid;
+    grid-template-areas:
+      "hotel"
+      "map"
+      "price";
+    gap: 30px;
+  }
+  .map,
+.hotel,
+.price {
+  height: 289px;
+  }
 }
