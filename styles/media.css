@@ -1,9 +1,18 @@
 @media screen and (max-width: 600px) {
   .header-main,
-  .selection-div, .header-main, .tour-showcase, .newsletter-section, .video-section {
+  .selection-div,
+  .header-main,
+  .tour-showcase,
+  .newsletter-section,
+  .video-section,
+  .payments-method {
     flex-direction: column;
   }
-  nav{
+  h1,
+  h3 {
+    font-size: 20px !important;
+  }
+  nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -20,7 +29,6 @@
   }
   .selection-div {
     width: 80%;
-    
   }
   .selection-div input,
   select,
@@ -48,38 +56,36 @@
     margin: 24px 15px;
     gap: 30px;
     padding: 20px;
-    
   }
   .tour-showcase h1 {
-        font-size: 20px;
+    font-size: 20px;
   }
   .tour-showcase img {
     margin-top: 24px;
     width: 100%;
   }
   .tour-showcase button {
-          width: 50%;
+    width: 50%;
   }
   .tour-content {
     width: 100%;
-    
   }
-  .destiny-section{
+  .destiny-section {
     padding: 20px;
   }
-  .destiny-section p{
+  .destiny-section p {
     padding: 0;
   }
   .destiny-grid {
     display: grid;
-    grid-template-areas: 
-    "tok"
-    "kana"
-    "miya"
-    "oki"
-    "hako"
-    "kyo"
-    "osa";
+    grid-template-areas:
+      "tok"
+      "kana"
+      "miya"
+      "oki"
+      "hako"
+      "kyo"
+      "osa";
     padding: 10px;
   }
   .destiny-grid div {
@@ -87,7 +93,7 @@
   }
   .features-section {
     padding: 20px;
-   margin-top: 20px;
+    margin-top: 20px;
   }
   .features-contain {
     display: grid;
@@ -98,28 +104,31 @@
     gap: 30px;
   }
   .map,
-.hotel,
-.price {
-  height: 289px;
-}
-.video-section {
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  
-}
-.video-content-text {
-  width: 80%;
-  padding: 20px;
-}
-.video-preview video {
-  width: 90%;
-  margin-left: 20px;
-}
-  .newsletter-section {
-        margin: 20px;
+  .hotel,
+  .price {
+    height: 289px;
   }
-  .newsletter-section input, button {
+  .video-section {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .video-section button {
+    width: 50%;
+  }
+  .video-content-text {
+    width: 80%;
+    padding: 20px;
+  }
+  .video-preview video {
+    width: 90%;
+    margin-left: 20px;
+  }
+  .newsletter-section {
+    margin: 20px;
+  }
+  .newsletter-section input,
+  button {
     width: 100%;
   }
   .offer-box {
@@ -130,23 +139,43 @@
     width: 100%;
   }
 
-
-
+  .payments-method {
+    gap: 20px;
+    margin-bottom: 0px;
+  }
+  .payments-method h1 {
+    margin-bottom: 0;
+  }
+  .payments-img img {
+    display: none;
+  }
+  .payments-box {
+    grid-template-areas:
+      "mas"
+      "visa"
+      "ko"
+      "we";
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
 
   footer {
     margin: 0;
     padding: 40px;
-   height: 350px;
+    height: 350px;
   }
   footer p {
-    color: #5A5A5D;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; 
-  margin-bottom: 26px;
-  padding: 0;
+    color: #5a5a5d;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 26px;
+    padding: 0;
   }
   .social-media {
     display: flex;
@@ -160,13 +189,13 @@
   }
   .copyright {
     margin-top: 25px;
-    border-top: 2px solid rgba(19, 19, 24, 0.10);
+    border-top: 2px solid rgba(19, 19, 24, 0.1);
   }
   .copyright p {
     margin-top: 20px;
   }
   footer .icon-div {
     margin-top: 33px;
-     margin-bottom: 16px;
+    margin-bottom: 16px;
   }
 }

@@ -382,6 +382,7 @@ li {
   grid-area: hotel;
   border: 1px solid rgba(99, 238, 251, 0.2);
   background: rgba(99, 203, 251, 0.05);
+  transition: all 0.5s ease;
 }
 .hotel:hover{
   background: rgba(99, 177, 251, 0.371);
@@ -390,6 +391,7 @@ li {
   grid-area: map;
   border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
+  transition: all 0.5s ease;
 }
 .map:hover{
   background: rgba(41, 205, 246, 0.317);
@@ -398,6 +400,7 @@ li {
   grid-area: price;
   border: 1px solid rgba(68, 195, 233, 0.2);
   background: rgba(68, 208, 233, 0.05);
+  transition: all 0.5s ease;
 }
 .price:hover{
   background: rgba(68, 208, 233, 0.324);
@@ -453,7 +456,7 @@ line-height: 26px;
   justify-content: center;
   margin-top: 113px;
   margin-bottom: 100px;
-  gap: 24px;
+  gap: 50px;
 }
 .newsletter-section h3 {
   color: #131318;
@@ -519,7 +522,7 @@ button {
   position: absolute;
 }
 .email-bg {
-  background-image: url(../images/email-bg.png);
+  background-image: url('../images/email-bg.png');
   height: 422px;
   width: 40%;
   background-position: center;
@@ -536,6 +539,66 @@ button {
   gap: 20px;
   padding: 40px;
   border-radius: 1rem;
+}
+/* Payment Styles */
+.payments-method {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-bottom: 100px;
+}
+.payments-method h1 {
+  color: #131318;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px;
+margin-bottom: 30px;
+text-align: center;
+}
+.payments-box {
+  display: grid;
+  grid-template-areas: 
+  "mas ."
+  ". visa"
+  "ko ."
+  ". we";
+  padding: 30px;
+}
+.mas {
+  grid-area: mas;
+}
+.visa {
+  grid-area: visa;
+}
+.ko {
+  grid-area: ko;
+}
+.we {
+  grid-area: we;
+}
+.payments-way {
+  border-radius: 1rem;
+  background-color: #e9e9e974;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20;
+  transition: all 0.5s ease;
+}
+.payments-way:hover {
+  background-color: #6194b6af;
+}
+.payments-way img {
+  width: 100px;
+  
+}
+.payments-img img {
+  width: 100%;
+  border-radius: 2rem;
+  
 }
 
 /* Footer Section Styles */
