@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
   .header-main,
-  .selection-div, .header-main, .tour-showcase {
+  .selection-div, .header-main, .tour-showcase, .newsletter-section {
     flex-direction: column;
   }
   nav{
@@ -87,6 +87,7 @@
   }
   .features-section {
     padding: 20px;
+   margin-top: 20px;
   }
   .features-contain {
     display: grid;
@@ -100,7 +101,25 @@
 .hotel,
 .price {
   height: 289px;
+  
   }
+  .newsletter-section {
+        margin: 20px;
+  }
+  .newsletter-section input, button {
+    width: 100%;
+  }
+  .offer-box {
+    width: 214px;
+    height: 79px;
+  }
+  .email-bg {
+    width: 100%;
+  }
+
+
+
+
   footer {
     margin: 0;
     padding: 40px;
