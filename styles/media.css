@@ -101,4 +101,40 @@
 .price {
   height: 289px;
   }
+  footer {
+    margin: 0;
+    padding: 40px;
+   height: 350px;
+  }
+  footer p {
+    color: #5A5A5D;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin-bottom: 26px;
+  padding: 0;
+  }
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 0;
+  }
+  .social-media i {
+    font-size: 34px;
+    color: #131318;
+  }
+  .copyright {
+    margin-top: 25px;
+    border-top: 2px solid rgba(19, 19, 24, 0.10);
+  }
+  .copyright p {
+    margin-top: 20px;
+  }
+  footer .icon-div {
+    margin-top: 33px;
+     margin-bottom: 16px;
+  }
 }
