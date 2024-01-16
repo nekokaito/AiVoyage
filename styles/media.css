@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
   .header-main,
-  .selection-div, .header-main, .tour-showcase, .newsletter-section {
+  .selection-div, .header-main, .tour-showcase, .newsletter-section, .video-section {
     flex-direction: column;
   }
   nav{
@@ -101,8 +101,21 @@
 .hotel,
 .price {
   height: 289px;
+}
+.video-section {
+  align-items: center;
+  margin: 0;
+  padding: 0;
   
-  }
+}
+.video-content-text {
+  width: 80%;
+  padding: 20px;
+}
+.video-preview video {
+  width: 90%;
+  margin-left: 20px;
+}
   .newsletter-section {
         margin: 20px;
   }
