@@ -95,6 +95,7 @@ header {
 }
 .header-content:hover{
   background-image: url("../images/bg-header.gif");
+  transition: all 0.5s ease;
 }
 .header-content h1 {
   color: #fff;
@@ -316,7 +317,7 @@ li {
   background-size: 110%;
 }
 .destiny-grid div:hover {
-  background-size: 140%;
+  background-size: 135%;
 }
 /* Features styles */
 .features-section {
